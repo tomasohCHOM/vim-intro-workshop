@@ -1,0 +1,23 @@
+ACM OSS VIM Intro Workshop
+
+Welcome to the sample file used to conduct the Intro to VIM 
+Workshop! If you are seeing this, chances are you were able 
+to set up VIM (or the VSCode VIM Keybinds Extension) on your 
+machine. Congrats! You can use this file to practice your VIM 
+motions, and your ability to edit text with tis tool.
+Let's get started:
+
+You can start by moving around while in NORMAL mode. h, j, k, l 
+all move the cursor one character at a time. 
+
+There is quite some space from the line below to the next one. Use 
+relative lines to jump from this line to the one 9 lines below.
+
+
+
+
+
+
+
+
+Nice!
