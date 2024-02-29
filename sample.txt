@@ -8,10 +8,11 @@ motions, and your ability to edit text with tis tool.
 Let's get started:
 
 You can start by moving around while in NORMAL mode. h, j, k, l 
-all move the cursor one character at a time. 
+all move the cursor one character at a time. w moves per word,
+b goes one word BACKWARDS.
 
 There is quite some space from the line below to the next one. Use 
-relative lines to jump from this line to the one 9 lines below.
+relative lines to jump from THIS line to the one 9 lines below.
 
 
 
@@ -20,4 +21,70 @@ relative lines to jump from this line to the one 9 lines below.
 
 
 
-Nice!
+Nice! Keep this concept in mind. We will use it in a bit.
+
+We can use x while in NORMAL to delete one character at a time.
+There are some typos in the line below. Let's fix it!
+
+Hello pOpen Source fSoftware xTeam!
+
+
+Delete the line below (with dd):
+
+VIM Sucks hehehehe.
+
+You can paste what you deleted with p. yy copies the entire line.
+Undo the last action with u (Ctrl-R to redo).
+
+Let's insert some text. Between the dashed line, enter INSERT 
+mode and add some text. Press Esc to go back to NORMAL.
+-------------------------------------------------------------
+
+-------------------------------------------------------------
+
+Now, let's learn how to highlight in VIM!
+v enters VISUAL mode, immediately highlighting text from where 
+you start. y copies the highlighted area, d cuts it.
+
+Below, go to the beginning of the line highlight it, and copy it.
+Paste it below it:
+
+HIGHLIGHT MEEEEEEEEE!
+
+
+
+Tedious, no? Try Capital V instead! It highlights the entire line 
+(including the newline character). Use it in the line below.
+
+HIGHLIGHT ME IN VISUAL LINE!
+
+[PASTE IN THIS LINE. It actually does it in the line below.]
+
+
+Let's do something more advanced. Try to highlight all the following lines 
+without repeating jjjjjjjjjjj (HINT: Relative Line Jumping):
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+tempor incididunt ut labore et dolore magna aliqua. Ipsum nunc aliquet 
+bibendum enim facilisis gravida neque. Ut consequat semper viverra nam 
+libero justo laoreet sit amet. Vitae elementum curabitur vitae nunc sed 
+velit dignissim. Pretium fusce id velit ut tortor pretium viverra. Morbi 
+tristique senectus et netus et malesuada fames ac turpis. Justo donec enim 
+diam vulputate ut pharetra sit amet aliquam. Eget duis at tellus at urna 
+condimentum mattis. Elit scelerisque mauris pellentesque pulvinar. Parturient 
+montes nascetur ridiculus mus mauris vitae ultricies leo integer. Eu tincidunt 
+tortor aliquam nulla facilisi cras fermentum odio. Nisl purus in mollis nunc sed 
+id semper risus. Elit ut aliquam purus sit. Habitant morbi tristique senectus et 
+netus. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus. Ut lectus 
+arcu bibendum at varius.
+
+
+Awesome! Last thing is COMMAND mode. Type ':', then you can do 
+'w' to save the file, '12' to go to line 12, or 'q' to quit VIM.
+':q!' quits without saving the file.
+
+That's it! This concludes the VIM Demo for the VIM Motions Workshop.
+Thanks for sticking through :>
+
+Keep grinding, never give up!
+- Tomas, OSS Team
